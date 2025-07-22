@@ -6,8 +6,8 @@ data={"name":["a","b","c"],
 df=pd.DataFrame(data)
 n_c1={"name":"i","age":9,"city":"o"}
 df.loc[len(df)]=n_c1
-# n_c2={"name":"ut","age":10,"city":"oojo"}
-# df.loc[len(df)]=n_c2
+n_c2={"name":"ut","age":10,"city":"oojo"}
+df.loc[len(df)]=n_c2
 
 #create data floder
 if not os.path.exists('data'):

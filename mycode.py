@@ -4,8 +4,8 @@ data={"name":["a","b","c"],
       "age":[20,30,40],
       "city":["d","f","g"]}
 df=pd.DataFrame(data)
-# n_c1={"name":"i","age":9,"city":"o"}
-# df.loc[len(df)]=n_c1
+n_c1={"name":"i","age":9,"city":"o"}
+df.loc[len(df)]=n_c1
 # n_c2={"name":"ut","age":10,"city":"oojo"}
 # df.loc[len(df)]=n_c2
 
